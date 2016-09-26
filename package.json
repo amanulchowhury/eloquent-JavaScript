@@ -1,0 +1,17 @@
+{
+  "name": "eloquent-javascript",
+  "version": "1.0.0",
+  "description": "Eloquent JavaScript Exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amanul I Chowdhury",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-cli": "6.14.0",
+    "babel-preset-es2015": "6.14.0"
+  }
+}
