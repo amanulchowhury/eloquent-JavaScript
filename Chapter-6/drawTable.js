@@ -1,5 +1,6 @@
 /**
  * Created by amanulchowdhury.
+ * Usage: drawTable(dataTable(data));
  */
 
 const rowHeights = (rows) => {
