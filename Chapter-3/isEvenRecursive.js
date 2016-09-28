@@ -1,5 +1,5 @@
 /**
- * Created by amanulchowdhury on 9/23/16.
+ * Created by amanulchowdhury.
  */
 const isEven = num => {
   if(num === 0) {

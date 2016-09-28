@@ -1,5 +1,5 @@
 /**
- * Created by amanulchowdhury on 9/23/16.
+ * Created by amanulchowdhury.
  */
 const fizzBuzz = () => {
     for(let i = 0; i < 100; i++) {

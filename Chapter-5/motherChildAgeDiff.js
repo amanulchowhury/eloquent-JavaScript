@@ -1,5 +1,5 @@
 /**
- * Created by amanulchowdhury on 9/25/16.
+ * Created by amanulchowdhury.
  */
 const ancestryData = require('./ancestry'),
     ancestry = JSON.parse(ancestryData),

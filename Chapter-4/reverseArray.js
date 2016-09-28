@@ -1,5 +1,5 @@
 /**
- * Created by amanulchowdhury on 9/24/16.
+ * Created by amanulchowdhury.
  */
 
 const reverseArray = (arr) => {
