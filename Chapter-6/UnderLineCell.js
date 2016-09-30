@@ -4,21 +4,23 @@
 
 let repeat = require('./repeat');
 
-function UnderlinedCell(inner) {
-    this.inner = inner;
+class UnderlinedCell {
+    constructor(inner) {
+        this.inner = inner;
+    }
+
+    minWidth() {
+        return this.inner.minWidth();
+    }
+
+    minHeight() {
+        return this.inner.minHeight() + 1;
+    }
+
+    draw(width, height) {
+        return this.inner.draw(width, height - 1)
+            .concat([repeat("-", width)]);
+    }
 }
-
-UnderlinedCell.prototype.minWidth = function() {
-    return this.inner.minWidth();
-};
-
-UnderlinedCell.prototype.minHeight = function() {
-    return this.inner.minHeight() + 1;
-};
-
-UnderlinedCell.prototype.draw = function(width, height) {
-    return this.inner.draw(width, height - 1)
-        .concat([repeat("-", width)]);
-};
 
 module.exports = UnderlinedCell;

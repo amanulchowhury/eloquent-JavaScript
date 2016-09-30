@@ -24,6 +24,7 @@ function dataTable(data) {
                 return new StretchCell(new TextCell(String(value)), 15, 2);
         });
     });
+
     return [headers].concat(body);
 }
 
