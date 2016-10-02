@@ -2,10 +2,10 @@
  * Created by amanulchowdhury.
  */
 
-let World = require('./World');
-let Wall = require('./Wall');
-let BouncingCritter = require('./BouncingCritter');
-let plan = require('./plan');
+let World = require('./World'),
+    Wall = require('./Wall'),
+    BouncingCritter = require('./BouncingCritter'),
+    plan = require('./plan');
 
 let legend = { '#': Wall, 'o': BouncingCritter };
 let world = new World(plan, legend);
