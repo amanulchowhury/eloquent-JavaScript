@@ -25,7 +25,7 @@ class View {
         let found = [];
 
         for(let dir in directions) {
-            if(this.look(dir)) {
+            if(this.look(dir) == ch) {
                 found.push(dir);
             }
         }
