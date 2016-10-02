@@ -2,7 +2,6 @@
  * Created by amanulchowdhury.
  */
 
-let clear = require('clear');
 let World = require('./World');
 let Wall = require('./Wall');
 let BouncingCritter = require('./BouncingCritter');
