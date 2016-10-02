@@ -2,6 +2,7 @@
  * Created by amanulchowdhury.
  */
 
+let clear = require('clear');
 let World = require('./World');
 let Wall = require('./Wall');
 let BouncingCritter = require('./BouncingCritter');
@@ -11,11 +12,7 @@ let legend = { '#': Wall, 'o': BouncingCritter };
 let world = new World(plan, legend);
 
 
-console.log(world.toString());
-
-console.log(world.toString());
-
-for(let i =0; i < 25; i++) {
+for(let i =0; i < 5; i++) {
     world.turn();
     console.log(world.toString());
 }
